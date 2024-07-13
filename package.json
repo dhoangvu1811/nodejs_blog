@@ -1,0 +1,30 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dhoangvu1811/nodejs_blog.git"
+  },
+  "keywords": [
+    "learnnodejs"
+  ],
+  "author": "vudh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhoangvu1811/nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/dhoangvu1811/nodejs_blog#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.4"
+  }
+}
